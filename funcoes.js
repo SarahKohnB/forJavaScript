@@ -139,3 +139,72 @@ function tabuada(num){
     }
 }
 tabuada(9)
+
+//14
+function contagemRegressiva(){
+    for (let i = 10; i >=1; i--){
+        console.log(i)
+    }
+}
+contagemRegressiva()
+
+
+//15
+function encontrar27() {
+    for (let i = 0; i <= 30; i++) {
+        if (i === 27) {
+            console.log("encontrei o número escolhido:", i);
+        }
+    }
+}
+
+encontrar27();
+
+//16
+function somaPares(limite) {
+    let soma = 0;
+
+    for (let i = 0; i <= limite; i++) {
+        if (i % 2 === 0) {
+            soma = soma + i;
+        }
+    }
+
+    console.log("Soma dos pares:", soma);
+}
+
+somaPares(10);
+
+
+//17
+function contarImpares(limite) {
+    let contador = 0;
+
+    for (let i = 0; i <= limite; i++) {
+        if (i % 2 != 0) {
+            contador++;
+        }
+    }
+
+    console.log("quantidade de ímpares:", contador);
+}
+
+contarImpares(10);
+
+
+//18
+function media(a, b) {
+    let resultado = (a + b) / 2;
+    return resultado;
+}
+
+console.log("média:", media(8, 6));
+
+
+//19
+function quadrado(numero) {
+    let resultado = numero * numero;
+    return resultado;
+}
+
+console.log("quadrado:", quadrado(4));
